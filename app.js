@@ -1,22 +1,9 @@
 var cl = console.log;
-var Department = /** @class */ (function () {
-    function Department(dName, dId) {
-        this.dName = dName;
-        this.dId = dId;
-        this.employees = [];
-    }
-    return Department;
-}());
-{
-}
-hireEmp(emp, string);
-{
-}
-createEmp(emp, string);
-{
-    return {
-        empName: emp
-    };
-}
-var d = new Department("Test", "D-789");
-cl(Department.createEmp("Tony"));
+var user1 = {
+    fname: "jhon",
+    lname: "doe",
+    userInfo: [true, false, "hello"]
+};
+user1.userInfo[0] = "hello";
+user1.userInfo[1] = "admin"; // we can change the value of index no 1 i.e admin from boolean
+cl(user1);
